@@ -6,7 +6,6 @@
   "main": "/index.js",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.0.0",
     "react-scripts": "^5.0.1"
   },
   "name": "ljg0t8",
@@ -18,6 +17,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://HirokiMorishita.github.io/react_practice",
   "browserslist": {
     "production": [
       ">0.2%",
