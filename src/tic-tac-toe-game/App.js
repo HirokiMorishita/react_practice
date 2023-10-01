@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"
 
 function Square({ value, onSquareClick }) {
   return <button className="square" onClick={onSquareClick}>{value}</button>
@@ -21,6 +22,7 @@ function Board({ xIsNext, squares, onPlay, winner, sideLength }) {
   })
   return (
     <React.Fragment>
+      <Link to="/">戻る</Link>
       <div className="status">{status}</div>
       {[...Array(sideLength).keys()].map(row => {
         return (
